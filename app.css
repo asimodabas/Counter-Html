@@ -1,0 +1,39 @@
+*{
+margin :0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+width: 100%;
+height: 100vh;
+font-family: "Montserrat",sans-serif;
+}
+#sayac {
+    font-size: 5rem;
+    letter-spacing: 5px;
+}
+
+.container{
+width: 50%;
+height: 40%;
+margin: 5rem auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+#baslat{
+cursor: pointer;
+padding: 0.5rem;
+border: none;
+background: rgb(182, 52, 52);
+border-radius: 10px;
+}
+
+#baslat:hover{
+background: rgb(172, 35, 35);
+}
+
+
